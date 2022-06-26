@@ -2,3 +2,11 @@
 allow-unauthenticated = ["*"]
 
 [assign]
+
+[mentions.'README.md']
+reviewers = ["@ehuss"]
+
+[mentions.'example1']
+
+[mentions.'example2']
+message = "This is a message."
