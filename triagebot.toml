@@ -4,7 +4,7 @@ allow-unauthenticated = ["*"]
 [assign]
 
 [mentions.'README.md']
-reviewers = ["@ehuss"]
+cc = ["@ehuss"]
 
 [mentions.'example1']
 
