@@ -1,8 +1,6 @@
 [relabel]
 allow-unauthenticated = ["*"]
 
-[assign]
-
 [mentions.'README.md']
 cc = ["@ehuss"]
 
