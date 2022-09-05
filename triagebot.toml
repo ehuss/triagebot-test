@@ -9,6 +9,9 @@ cc = ["@ehuss"]
 [mentions.'example2']
 message = "This is a message."
 
+[autolabel."I-prioritize"]
+trigger_labels = "foo"
+
 [assign]
 non_default_branch = true
 contributing_url = "https://rustc-dev-guide.rust-lang.org/contributing.html"
