@@ -12,6 +12,9 @@ message = "This is a message."
 [autolabel."bar"]
 trigger_labels = ["foo"]
 
+[autolabel."foo"]
+new_pr = true
+
 [assign]
 non_default_branch = true
 contributing_url = "https://rustc-dev-guide.rust-lang.org/contributing.html"
