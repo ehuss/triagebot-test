@@ -10,3 +10,17 @@ cc = ["@ehuss"]
 
 [mentions.'example2']
 message = "This is a message."
+
+[assign]
+non_default_branch = true
+contributing_url = "https://rustc-dev-guide.rust-lang.org/contributing.html"
+
+[assign.groups]
+"group1" = ["@ehuss"]
+"group2" = ["group1", "@octocat"]
+
+[assign.owners]
+"**" = ["@ehuss"]
+"README.md" = ["@octocat"]
+"/foo" = ["@ghost"]
+"/bar" = ["group2"]
