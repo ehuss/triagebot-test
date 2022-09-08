@@ -24,7 +24,7 @@ contributing_url = "https://rustc-dev-guide.rust-lang.org/contributing.html"
 "group2" = ["group1", "@octocat"]
 
 [assign.owners]
-"**" = ["@ehuss"]
-"README.md" = ["@octocat"]
+# "**" = ["@ehuss"]
+# "README.md" = ["@octocat"]
 "/foo" = ["@ghost"]
 "/bar" = ["group2"]
