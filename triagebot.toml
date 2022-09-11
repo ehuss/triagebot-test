@@ -1,3 +1,4 @@
+[shortcut]
 [relabel]
 allow-unauthenticated = ["*"]
 
