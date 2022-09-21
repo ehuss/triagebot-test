@@ -24,6 +24,7 @@ contributing_url = "https://rustc-dev-guide.rust-lang.org/contributing.html"
 "group1" = ["@ehuss"]
 "group2" = ["group1", "@octocat"]
 "group3" = ["@EHUSS"]
+group4 = ["@grashgal"]
 recursive1a = ["recursive1b"]
 recursive1b = ["recursive1a"]
 
