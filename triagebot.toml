@@ -30,3 +30,4 @@ contributing_url = "https://rustc-dev-guide.rust-lang.org/contributing.html"
 # "README.md" = ["@octocat"]
 "/foo" = ["@ghost"]
 "/bar" = ["group2"]
+"/only" = ["group1"]
