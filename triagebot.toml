@@ -17,10 +17,10 @@ trigger_labels = ["foo"]
 new_pr = true
 
 [assign]
-non_default_branch = true
+warn_non_default_branch = true
 contributing_url = "https://rustc-dev-guide.rust-lang.org/contributing.html"
 
-[assign.groups]
+[assign.adhoc_groups]
 "group1" = ["@ehuss"]
 "group2" = ["group1", "@octocat"]
 "group3" = ["@EHUSS"]
