@@ -30,7 +30,7 @@ recursive1b = ["recursive1a"]
 
 recursive2a = ["recursive2b"]
 recursive2b = ["recursive2a", "octocat"]
-# fallback = ["grashgal"]
+fallback = ["ehuss"]
 
 [assign.owners]
 # "**" = ["@ehuss"]
