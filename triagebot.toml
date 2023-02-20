@@ -1,6 +1,6 @@
 [mentions.'foo/example1']
-cc = ["@ehuss"]
+cc = ["@grashgal", "@ehuss"]
 
 [mentions.'foo/example2']
-cc = ["@ehuss"]
+cc = ["@grashgal", "@ehuss"]
 message = "a custom message"
