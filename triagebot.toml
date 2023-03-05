@@ -1,6 +1,1 @@
-[mentions.'foo/example1']
-cc = ["@grashgal", "@ehuss"]
-
-[mentions.'foo/example2']
-cc = ["@grashgal", "@ehuss"]
-message = "a custom message"
+[shortcut]
