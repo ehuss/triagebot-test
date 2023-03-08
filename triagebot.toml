@@ -1,1 +1,4 @@
-[shortcut]
+
+                [mentions.'foo/example1']
+                cc = ["@octocat"]
+            
