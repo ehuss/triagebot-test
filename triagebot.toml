@@ -1,5 +1,7 @@
 
                     [mentions.'foo/example1']
                     cc = ["@octocat"]
-                    message = "a custom message"
+
+                    [mentions.'foo/example2']
+                    cc = ["@octocat"]
                 
