@@ -1,1 +1,4 @@
 [shortcut]
+
+[autolabel."S-waiting-on-review"]
+new_pr = true
