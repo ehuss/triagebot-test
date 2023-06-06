@@ -1,7 +1,1 @@
-
-                    [mentions.'foo/example1']
-                    cc = ["@octocat"]
-
-                    [mentions.'foo/example2']
-                    cc = ["@octocat"]
-                
+[shortcut]
