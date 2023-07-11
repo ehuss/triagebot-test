@@ -9,7 +9,3 @@ exclude_labels = ["rollup", "sync"]
 # Add the following labels to PRs with merge commits
 labels = ["has-merge-commits", "S-waiting-on-author"]
 # Post the following warning message as a comment on PRs with merge commits
-message = """
-This repository does not allow merge commits.
-Your PR cannot be merged until it is rebased.
-"""
