@@ -3,7 +3,7 @@
 [autolabel."S-waiting-on-reviewz"]
 new_pr = true
 
-[no_merges]
+[no-merges]
 # PRs with the following labels will be skipped 
 exclude_labels = ["rollup", "sync"]
 # Add the following labels to PRs with merge commits
