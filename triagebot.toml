@@ -13,3 +13,8 @@ message = """
 This repository does not allow merge commits.
 Your PR cannot be merged until it is rebased.
 """
+
+[relabel]
+allow-unauthenticated = [
+    "*",
+]
