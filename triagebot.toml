@@ -3,9 +3,18 @@
 [autolabel."S-waiting-on-reviewz"]
 new_pr = true
 
-[no_merges]
+[no-merges]
 # PRs with the following labels will be skipped 
-exclude_labels = ["rollup", "sync"]
+exclude_titles = ["exclude me"]
 # Add the following labels to PRs with merge commits
 labels = ["has-merge-commits", "S-waiting-on-author"]
 # Post the following warning message as a comment on PRs with merge commits
+message = """
+This repository does not allow merge commits.
+Your PR cannot be merged until it is rebased.
+"""
+
+[relabel]
+allow-unauthenticated = [
+    "*",
+]
