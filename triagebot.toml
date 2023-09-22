@@ -18,4 +18,3 @@ Your PR cannot be merged until it is rebased.
 allow-unauthenticated = [
     "*",
 ]
-
