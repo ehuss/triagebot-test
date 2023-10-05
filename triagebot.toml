@@ -19,3 +19,9 @@ allow-unauthenticated = [
     "*",
 ]
 
+
+[github-releases]
+format = "rustc"
+project-name = "Rust"
+changelog-path = "RELEASES.md"
+changelog-branch = "main"
