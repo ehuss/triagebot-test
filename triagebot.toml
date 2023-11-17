@@ -25,3 +25,11 @@ format = "rustc"
 project-name = "Rust"
 changelog-path = "RELEASES.md"
 changelog-branch = "main"
+
+[assign]
+contributing_url = "https://rust-lang.github.io/cargo/contrib/"
+warn_non_default_branch = true
+
+[assign.owners]
+"/" = ["@ehuss"]
+"/foo" = ["@grashgal"]
