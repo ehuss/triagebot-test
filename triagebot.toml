@@ -27,9 +27,9 @@ changelog-path = "RELEASES.md"
 changelog-branch = "main"
 
 [autolabel."foo"]
-trigger_files = ["/foo"]
+trigger_files = ["foo"]
 
-[mentions."/foo"]
+[mentions."foo"]
 cc = ["@grashgal"]
 
 [assign]
