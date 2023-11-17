@@ -26,6 +26,12 @@ project-name = "Rust"
 changelog-path = "RELEASES.md"
 changelog-branch = "main"
 
+[autolabel."foo"]
+trigger_files = ["/foo"]
+
+[mentions."/foo"]
+cc = ["@grashgal"]
+
 [assign]
 contributing_url = "https://rust-lang.github.io/cargo/contrib/"
 warn_non_default_branch = true
