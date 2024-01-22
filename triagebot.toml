@@ -1,5 +1,5 @@
 [relabel]
-allow-unauthenticated = [
+allow-unauthenticatedz = [
     "A-*",
     "T-*",
     "not-rfc",
