@@ -1,5 +1,4 @@
 [shortcut]
-x
 
 [autolabel."S-waiting-on-review"]
 new_pr = true
