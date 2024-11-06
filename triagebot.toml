@@ -39,3 +39,5 @@ warn_non_default_branch = true
 [assign.owners]
 "/" = ["@ehuss"]
 "/foo" = ["@grashgal"]
+
+[merge-conflict]
