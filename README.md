@@ -1,2 +1,2 @@
 # triagebot-test
-Triagebot testing3-force-conflict-again
+Triagebot testing2-conflict-on-open
