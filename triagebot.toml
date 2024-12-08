@@ -18,5 +18,13 @@ add_labels = ["S-waiting-on-review"]
 [assign]
 warn_non_default_branch = true
 
+[[assign.warn_non_default_branch.exceptions]]
+title = "[beta"
+branch = "beta"
+
+[[assign.warn_non_default_branch.exceptions]]
+title = "[stable"
+branch = "stable"
+
 [assign.owners]
 "*" = ["@ehuss", "@grashgal"]
