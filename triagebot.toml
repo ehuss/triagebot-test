@@ -16,7 +16,7 @@ remove_labels = ["S-waiting-on-author"]
 add_labels = ["S-waiting-on-review"]
 
 [assign]
-warn_non_default_branch = true
+warn_non_default_branch.enable = true
 
 [[assign.warn_non_default_branch.exceptions]]
 title = "[beta"
