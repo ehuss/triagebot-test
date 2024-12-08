@@ -17,3 +17,6 @@ add_labels = ["S-waiting-on-review"]
 
 [assign]
 warn_non_default_branch = true
+
+[assign.owners]
+"*" = ["@ehuss", "@grashgal"]
