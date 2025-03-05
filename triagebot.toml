@@ -28,3 +28,6 @@ branch = "stable"
 
 [assign.owners]
 "*" = ["@ehuss", "@grashgal"]
+
+[relabel]
+allow-unauthenticated = ["*"]
