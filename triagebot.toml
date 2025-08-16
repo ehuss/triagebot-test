@@ -26,8 +26,8 @@ branch = "beta"
 title = "[stable"
 branch = "stable"
 
-[assign.owners]
-"*" = ["@ehuss", "@grashgal"]
+# [assign.owners]
+# "*" = ["@ehuss", "@grashgal"]
 
 [relabel]
 allow-unauthenticated = ["*"]
